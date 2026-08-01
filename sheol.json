@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "name": "video-thumbnail",
+  "description": "Pulls the sharpest frame out of a video and writes it as a thumbnail",
+  "kind": "module",
+  "tags": ["video", "ffmpeg", "thumbnail"],
+  "license": "MIT",
+  "requires": ["ffmpeg"],
+  "entry": { "cli": "tools/thumbnail.sh input.mp4 cover.jpg" },
+  "cost": { "model": "free" }
+}
