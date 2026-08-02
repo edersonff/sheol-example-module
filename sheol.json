@@ -2,10 +2,22 @@
   "schema": 1,
   "name": "video-thumbnail",
   "description": "Pulls the sharpest frame out of a video and writes it as a thumbnail",
+  "input": "a video path as the first argument",
+  "output": "a jpeg written to the path you pass second",
   "kind": "module",
-  "tags": ["video", "ffmpeg", "thumbnail"],
+  "tags": [
+    "video",
+    "ffmpeg",
+    "thumbnail"
+  ],
   "license": "MIT",
-  "requires": ["ffmpeg"],
-  "entry": { "cli": "tools/thumbnail.sh input.mp4 cover.jpg" },
-  "cost": { "model": "free" }
+  "requires": [
+    "ffmpeg"
+  ],
+  "entry": {
+    "cli": "tools/thumbnail.sh input.mp4 cover.jpg"
+  },
+  "cost": {
+    "model": "free"
+  }
 }

@@ -4,6 +4,14 @@ Picks the frame with the most detail out of a video and saves it as a jpeg. Writ
 middle of a longer pipeline, so it prints nothing when it works and leans on ffmpeg's own exit code
 when it does not.
 
+## Input
+
+A video path as the first argument.
+
+## Output
+
+A jpeg written to the path you pass second. Nothing on stdout.
+
 ## Run it
 
     tools/thumbnail.sh input.mp4 cover.jpg
