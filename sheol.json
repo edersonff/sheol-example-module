@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "requires": [
-    "ffmpeg"
+    "ffmpeg>=4.4"
   ],
   "entry": {
     "cli": "tools/thumbnail.sh input.mp4 cover.jpg"
