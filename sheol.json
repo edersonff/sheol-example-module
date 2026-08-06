@@ -19,5 +19,6 @@
   },
   "cost": {
     "model": "free"
-  }
+  },
+  "example": "test.mp4"
 }
